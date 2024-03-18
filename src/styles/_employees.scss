@@ -1,0 +1,14 @@
+.employees-wrapper {
+  padding: 16px 48px;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 22px;
+  }
+}

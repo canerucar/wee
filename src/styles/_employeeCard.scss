@@ -1,0 +1,49 @@
+.employee-card {
+  width: 360px;
+  height: 340px;
+  border: 2px solid $grey100;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin: 0 16px 16px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: $green100;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      width: 140px;
+      height: 140px;
+      margin-bottom: 16px;
+      border-radius: 16px;
+    }
+    .description {
+      margin-bottom: 8px;
+
+      p{ 
+        font-family: $font-family;
+        font-size: 16px;
+        color: $grey300;
+      }
+
+      b {
+        color: $grey800;
+      }
+    }
+  }
+
+  button {
+    width: 120px;
+    height: 40px;
+    border: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
