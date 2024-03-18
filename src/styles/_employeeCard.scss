@@ -2,14 +2,13 @@
   width: 360px;
   height: 340px;
   border: 2px solid $grey100;
-  background-color: $white;
   display: flex;
   flex-direction: column;
   padding: 16px;
   margin: 0 16px 16px 0;
   justify-content: center;
   align-items: center;
-  background-color: $green100;
+  background-color: $grey500;
 
   a {
     display: flex;
@@ -32,7 +31,7 @@
       }
 
       b {
-        color: $grey800;
+        color: $grey400;
       }
     }
   }
